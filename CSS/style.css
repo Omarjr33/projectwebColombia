@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +7,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'DynaPuff', system-ui;
+    font-weight: 400; /* Regular */
     background: url('../images/background-2.png') no-repeat center center fixed;
     background-size: cover;
     color: #000;
@@ -20,6 +22,8 @@ body {
 }
 
 h1 {
+    font-family: 'DynaPuff', system-ui;
+    font-weight: 700;
     color: #f7af00;
     font-size: 50px;
     text-align: center;
@@ -84,7 +88,5 @@ h2{
 }
 
 .mapImage{
-    max-width: 2000px;
-    width: 200%;
     height: auto;
 }

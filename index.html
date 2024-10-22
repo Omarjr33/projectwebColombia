@@ -33,9 +33,49 @@
             
             
 
-        <div class = "map"> 
-                <img src="images/map.png" alt="Mapa de Colombia" class = "mapImage">
-            </div>
+        
+        <div class="map">
+            <!-- Agregar el mapa de imagen -->
+            <img src="images/map.png" alt="Mapa de Colombia" usemap="#mapaImage" class="mapImage">
+
+            <!-- Definir las áreas clickeables con coordenadas ajustadas -->
+            <map name="mapaImage">
+                <!-- Magdalena (región azul en la parte superior) -->
+                <area shape="poly" 
+                    coords="604,74,608,89,607,96,603,108,601,115,606,120,604,130,606,137,607,148,614,152,620,156,628,159,632,164,639,167,647,165,639,156,633,147,637,142,644,139,639,126,634,114,640,108,648,103,654,95,651,85,651,72,642,63,627,71,621,79"
+                    href="magdalena.html" 
+                    alt="Magdalena" 
+                    title="Departamento del Magdalena">
+                
+                <!-- Cesar (región blanca al este de Magdalena) -->
+                <area shape="poly" 
+                    coords="654,87,666,84,672,94,672,102,680,109,679,123,675,139,668,149,661,162,661,178,657,191,662,204,663,217,661,227,650,223,648,188,645,175,645,164,639,156,636,146,644,143,645,133,636,117,653,102"
+                    href="cesar.html" 
+                    alt="Cesar" 
+                    title="Departamento del Cesar">
+
+                
+                <!-- Santander (región azul en el centro) -->
+                <area shape="poly" 
+                    coords="644,206,651,212,651,223,661,231,675,229,684,236,686,249,695,255,702,268,696,278,689,276,688,290,674,300,665,305,660,296,653,305,648,312,634,310,624,296,616,289,625,275,638,259,642,249,643,233"
+                    href="santander.html" 
+                    alt="Santander" 
+                    title="Departamento del Santander">
+                
+                <!-- Antioquia (región blanca al oeste) -->
+                <area shape="poly" 
+                    coords="517,187,527,182,540,174,540,181,545,186,546,194,539,203,538,211,536,221,536,233,540,240,557,241,568,235,571,223,583,217,592,210,602,206,609,207,614,215,615,223,615,229,614,235,616,241,621,250,627,257,636,250,642,257,632,264,625,271,619,277,619,285,613,292,613,299,609,307,604,313,595,312,587,318,577,313,571,319,561,322,554,317,551,303,546,293,534,291,525,288,523,279,517,271,519,263,525,256,536,254,531,240,523,234,514,225,510,217,516,207"
+                    href="antioquia.html" 
+                    alt="Antioquia" 
+                    title="Departamento de Antioquia">
+                
+                <!-- Cundinamarca (región blanca en la parte inferior) -->
+                <area shape="poly" 
+                    coords="616,396,616,383,608,377,604,369,607,354,609,343,609,330,614,313,622,310,626,320,634,327,640,326,647,321,654,328,657,337,659,348,666,356,672,359,675,366,674,378,665,375,656,374,650,365,644,372,645,379,640,386,633,379,636,357,627,363,626,383" 
+                    href="cundinamarca.html" 
+                    alt="Cundinamarca" 
+                    title="Departamento de Cundinamarca">
+            </map>
         </div>
     </div>
 </body>
