@@ -1,0 +1,28 @@
+body {
+    font-family: 'DynaPuff', system-ui;
+    font-weight: 400; /* Regular */
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    padding: 20px;
+}
+
+.map-container {
+    position: relative;
+}
+
+.mapcesar{
+    width: 100%; /* Se ajusta al ancho del contenedor */
+    max-width: 1800px; /* Limita el ancho máximo a 800px */
+    height: auto;
+}
+
+.posicion {
+    position: absolute;
+    top: 15%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
